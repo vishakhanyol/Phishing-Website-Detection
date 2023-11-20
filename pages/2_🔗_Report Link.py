@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
-from config_creds import reportForm
+from forms import reportForm
 
 # --- PAGE CONFIGURATIONS ---
 st.set_page_config(page_title="Report Link", page_icon="🔗", layout="wide")

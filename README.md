@@ -1,5 +1,2 @@
 # PhishGuardian🛡️
-Content Based Phishing Website Detection Streamlit Application Using Machine Learning 
-
-Developed By:
-Yuvraj Singh Chauhan and Vishakha
+Content Based Phishing Website Detection With Machine Learning

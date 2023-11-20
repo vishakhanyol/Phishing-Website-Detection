@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import requests
-from config_creds import contactForm
+from forms import contactForm
 
 st.set_page_config(page_title="Contact", page_icon="✉️", layout="wide")
 st.title("Contact Us 📬")
