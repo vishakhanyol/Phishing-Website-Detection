@@ -1,17 +1,17 @@
 # Step 1 import libraries
-import pandas as pd
-import numpy as np
+import pandas as pd # type: ignore
+import numpy as np # type: ignore
 
 # from sklearn.model_selection import train_test_split
 # from sklearn import svm
-from sklearn import tree
-from sklearn.naive_bayes import GaussianNB
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.neural_network import MLPClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import confusion_matrix, f1_score
-import matplotlib.pyplot as plt
+from sklearn import tree # type: ignore
+from sklearn.naive_bayes import GaussianNB # type: ignore
+from sklearn.ensemble import RandomForestClassifier # type: ignore
+from sklearn.ensemble import AdaBoostClassifier # type: ignore
+from sklearn.neural_network import MLPClassifier # type: ignore
+from sklearn.neighbors import KNeighborsClassifier # type: ignore
+from sklearn.metrics import confusion_matrix, f1_score # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 
 
 # Step 2 read the csv files and create pandas dataframes
