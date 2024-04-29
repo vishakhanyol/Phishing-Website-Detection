@@ -1,11 +1,11 @@
 # DATA COLLECTION
-import requests as re
-from urllib3.exceptions import InsecureRequestWarning
-from urllib3 import disable_warnings 
+import requests as re # type: ignore
+from urllib3.exceptions import InsecureRequestWarning # type: ignore
+from urllib3 import disable_warnings  # type: ignore
 
 # UNSTRUCTURED TO STRUCTURED DATA
-from bs4 import BeautifulSoup
-import pandas as pd
+from bs4 import BeautifulSoup # type: ignore
+import pandas as pd # type: ignore
 import feature_extraction as fe
 
 disable_warnings(InsecureRequestWarning)

@@ -1,7 +1,7 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # type: ignore
 import os
 import features as fe
-import pandas as pd
+import pandas as pd # type: ignore
 
 # STEP 1 DEFINE A FUNCTION THAT OPENS A HTML FILE AND RETURNS THE CONTENT
 # file = "mini_dataset\8.html"

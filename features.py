@@ -1,5 +1,5 @@
-from bs4 import BeautifulSoup
-import requests
+from bs4 import BeautifulSoup # type: ignore
+import requests # type: ignore
 
 # response = requests.get("http://www.twitter.com", headers = {'User-Agent': 'My User Agent 1.0'})
 
